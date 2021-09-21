@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+/* pricing-table start */
+
+.pricing-section {
+    background-color: #f6f9fc;
+    padding: 100px 0;
+}
+
+.pricing-title {}
+
+.pricing-title h5 {
+    color: #9d8fec;
+    font-weight: 400;
+}
+
+.pricing-title h1 {
+    margin: 16px 0 24px;
+    position: relative;
+}
+
+.pricing-title h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -16px;
+    margin: auto;
+    height: 3px;
+    width: 50px;
+    background: #3763eb;
+}
+
+.pricing-title p {
+    color: #606060;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 36px 450px 0;
+}
+
+.pricing-table {
+    margin: 60px 0 0;
+}
+
+.pricing-card {
+    background-color: #fff;
+    padding: 50px 0;
+    transition: .4s;
+}
+
+.amount-section {
+    position: relative;
+}
+
+.amount-section::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    margin: auto;
+    background-color: #ddd;
+    width: 200px;
+}
+
+.amount-section h5 {
+    font-size: 16px;
+    color: #292e36;
+    margin: 0 0 24px;
+    transition: 1.5s;
+}
+
+.amount-section h1 {
+    color: #292e36;
+    padding: 0 0 50px;
+    transition: 1.5s;
+    position: relative;
+}
+
+.amount-section h1::after {
+    content: "per month";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 22px;
+    margin: auto;
+    font-size: 16px;
+    color: #fff;
+}
+
+.prici-list {
+    margin: 32px 0 0;
+}
+
+.prici-list li {
+    color: #606060;
+    padding: 8px 0;
+    transition: .4s;
+}
+
+.trial-button {}
+
+.t-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3763eb;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: .4s;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.t-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    background-color: #3763eb;
+    transition: .4s;
+}
+
+.t-btn:hover::after {
+    width: 100%;
+}
+
+.pricing-card:hover {
+    color: #fff;
+    background-color: #3763eb;
+}
+
+.pricing-card:hover .amount-section h5 {
+    color: #fff;
+    ;
+}
+
+.pricing-card:hover .amount-section h1 {
+    color: #fff;
+    ;
+}
+
+.pricing-card:hover .prici-list li {
+    color: #fff;
+    ;
+}
+
+.pricing-card:hover .t-btn {
+    color: #3763eb;
+    background-color: #fff;
+}
+
+.t-btn:hover {
+    color: #fff !important;
+}
+
+/* pricing-table end */
+
+/* slider-section start */
+
+.slider-section {
+    background: linear-gradient(rgba(55, 100, 235, 0.7), rgba(55, 100, 235, 0.7)), url(img/free-bg.jpg) no-repeat center center;
+}
+
+.slider-content {
+    height: 70vh;
+}
+
+.s-title h5 {
+    color: #fff;
+}
+
+.s-title h1 {
+    color: #fff;
+    margin: 24px 362px 0;
+}
+
+.s-title h1::after {
+    background: #fff;
+    height: 1px;
+}
+
+.s-title p {
+    color: #fff;
+    margin: 40px 425px 0;
+}
+
+.slider-button {
+    margin: 50px 0 0;
+}
+
+.slid-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #3763eb;
+    padding: 12px 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.slid-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: .4s;
+    z-index: -1;
+    background-color: #3763eb;
+}
+
+.slid-btn:hover::after {
+    width: 100%;
+}
+
+.slid-btn:hover {
+    color: #fff;
+}
+
+/* slider-section end */
+
+/* newsletter-section start */
+
+.newsletter-section {
+    padding: 100px 0;
+}
+
+.news-form {
+    background-color: #3763eb;
+    padding: 50px;
+    border-radius: 6px;
+}
+
+.news-form h2 {
+    color: #fff;
+    margin: 0 0 27px;
+}
+
+.news-form p {
+    color: #fff;
+    margin: 16px 339px 37px 0;
+}
+
+.news-form .form-control {
+    border-radius: 30px;
+}
+
+.sub-btn {
+    border: 1px solid #fff;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3763eb;
+    padding: 8px 45px;
+    border-radius: 30px;
+}
+
+.news-content {
+    box-shadow: 0px 0px 13px 0px #00000045;
+    padding: 50px;
+}
+
+.news-content h3 {
+    margin: 0 56px 0 0;
+}
+
+.nc-button {
+    margin: 66px 0 0;
+}
+
+.nc-button .sub-btn {
+    color: #fff !important;
+}
+
+/* newsletter-section end */
